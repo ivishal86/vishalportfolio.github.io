@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishal Gwala - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        
+
+        nav {
+            background-color: #007BFF;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: #333;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ceb3b3;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #ffffff;
+        }
+        h2{
+
+        }
+
+        a {
+            color: #007BFF;
+        }
+
+        ul {
+            display: inline;
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        img {
+            display: inline;
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .skills {
+            margin-top: 20px;
+        }
+
+        .skills h3 {
+            color: #333;
+        }
+
+        .skills ul {
+            columns: 2; /* Adjust the number of columns as needed */
+        }
+
+        .skills li {
+            margin-bottom: 8px;
+        }
+
+        .education {
+            margin-top: 20px;
+        }
+
+        .education h2 {
+            color: #333;
+        }
+
+        .education ul {
+            padding-left: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #333;
+            color: #fff;
+        }
+        .dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+        /* image{} */
+        .about{
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#portfolio">projects</a>
+        <a href="#contact">Contact</a>
+        <button id="toggleDarkMode">Dark Mode</button>
+    </nav>
+    <header>
+        <h1 class="name">Vishal Gwala</h1>
+        <p>Full Stack Web Developer</p>
+    </header>
+    <section id="image" >
+            <div class="about">
+            <img src="images/IMG20230324115130-removebg-preview.png" alt="Your Name" style="width: 30%;">
+            <div style="border: #007BFF 1px; margin-left: 5px ;">
+            <ul>
+                <li><h3 class="name">Name: Vishal Gwala</h3></li>
+                <li><h3>Age: 21</h3> </li>
+
+                <!-- <li>LinkedIn: <a href="https://www.linkedin.com/in/vishal-gwala-706835201/" target="_blank">LinkedIn Profile</a></li>
+                <li>GitHub: <a href="https://github.com/yourusername" target="_blank">GitHub Profile</a></li> -->
+            </ul>
+        </div>
+        </div>
+        </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Welcome to my portfolio! I am a passionate web developer with experience in front-end and back-end technologies. <br>
+            As a trainee at AU Skill Academy, I am learning and applying the latest technologies and best practices in data engineering and cloud computing. I have a Microsoft certification in Azure Data Fundamentals, and I am proficient in React.js, SQL Server, and JavaScript. I am also a computer science student at Poornima Institute of Engineering & Technology, where I have gained a solid foundation in programming, algorithms, and data structures. Previously, I was an intern at TechieNest, where I contributed to the development and testing of web applications and APIs for various clients. I am passionate about creating innovative and user-friendly solutions that leverage data and cloud technologies. I am eager to expand my skills and knowledge, and to collaborate with other professionals in the field.
+            
+        </p>
+    </section>
+
+    <section id="education" class="education">
+        <h2>Education</h2>
+        <ul>
+            <li>
+                <h3>Poornima Institute of Engineering and  Technology</h3>
+                <p>Persuing B.Tech. in Computer Science</p>
+                <p>Overall CGPA:8.7%</p>
+            </li>
+            <!-- Add more education entries as needed -->
+        </ul>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>
+                <h3>Front-end Technologies</h3>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <!-- Add more front-end technologies as needed -->
+                </ul>
+            </li>
+            <li>
+                <h3>Back-end Technologies</h3>
+                <ul>
+                    <li>Node.js</li>
+                    <li>Express.js</li>
+                    <li>PHP</li>
+                    <!-- Add more back-end technologies as needed -->
+                </ul>
+            </li>
+            <li>
+                <h3>Other Skills</h3>
+                <ul>
+                    <li>C++</li>
+                    <li>Core Java</li>
+                    <li>Python</li>
+                    <li>OOPS</li>
+                    <li>Responsive Design</li>
+                    <li>Git and Version Control</li>
+                    <li>Database Management (e.g., MySQL, MongoDB)</li>
+                    <!-- Add more skills as needed -->
+                </ul>
+            </li>
+           
+        </ul>
+    </section>
+
+    <section id="portfolio">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <h3>Project 1</h3>
+                <p>E-Commerce Website using html and css.</p>
+                <a href="https://github.com/ivishal86/E-Commerce-Website-Frontend.git">View Project</a>
+            </li>
+            <li>
+                <h3>Project 2</h3>
+                <!-- <p>Description of Project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
+                <a href="#">View Project</a>
+            </li>
+            <!-- Add more projects as needed -->
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out to me via email or connect on social media.</p>
+        <ul>
+            <li>Email: <a href="mailto:vishalgwala86@gmail.com">your.email@example.com</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/vishal-gwala-706835201/" target="_blank">LinkedIn Profile</a></li>
+            <li>GitHub: <a href="https://github.com/yourusername" target="_blank">GitHub Profile</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Vishal Gwala - Portfolio</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling effect for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Toggle dark mode
+        const toggleDarkModeButton = document.getElementById('toggleDarkMode');
+        const body = document.body;
+
+        toggleDarkModeButton.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+        });
+
+        
+    </script>
+</body>
+</html>
